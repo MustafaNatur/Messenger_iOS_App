@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		973984A72AA3CED700D0A23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973984A62AA3CED700D0A23B /* AppDelegate.swift */; };
+		973984A92AA3CED700D0A23B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973984A82AA3CED700D0A23B /* SceneDelegate.swift */; };
+		973984AB2AA3CED700D0A23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973984AA2AA3CED700D0A23B /* ViewController.swift */; };
+		973984B02AA3CED800D0A23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973984AF2AA3CED800D0A23B /* Assets.xcassets */; };
+		973984B32AA3CED800D0A23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973984B12AA3CED800D0A23B /* LaunchScreen.storyboard */; };
+		973984BB2AA3DDFE00D0A23B /* ProfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973984BA2AA3DDFE00D0A23B /* ProfieViewController.swift */; };
+		973984BD2AA3E05600D0A23B /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973984BC2AA3E05600D0A23B /* ProfileModel.swift */; };
+		974F8C962AA4B717007F552E /* PhotoPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F8C942AA4B717007F552E /* PhotoPickerDelegate.swift */; };
+		974F8C972AA4B717007F552E /* PhotoPickerAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F8C952AA4B717007F552E /* PhotoPickerAlertController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		973984A32AA3CED700D0A23B /* Tinkoff_Messenger_iOS_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinkoff_Messenger_iOS_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		973984A62AA3CED700D0A23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		973984A82AA3CED700D0A23B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		973984AA2AA3CED700D0A23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		973984AF2AA3CED800D0A23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		973984B22AA3CED800D0A23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		973984B42AA3CED800D0A23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973984BA2AA3DDFE00D0A23B /* ProfieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfieViewController.swift; sourceTree = "<group>"; };
+		973984BC2AA3E05600D0A23B /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		974F8C942AA4B717007F552E /* PhotoPickerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerDelegate.swift; sourceTree = "<group>"; };
+		974F8C952AA4B717007F552E /* PhotoPickerAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerAlertController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		973984A02AA3CED700D0A23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9739849A2AA3CED700D0A23B = {
+			isa = PBXGroup;
+			children = (
+				973984A52AA3CED700D0A23B /* Tinkoff_Messenger_iOS_App */,
+				973984A42AA3CED700D0A23B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		973984A42AA3CED700D0A23B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				973984A32AA3CED700D0A23B /* Tinkoff_Messenger_iOS_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		973984A52AA3CED700D0A23B /* Tinkoff_Messenger_iOS_App */ = {
+			isa = PBXGroup;
+			children = (
+				973984A62AA3CED700D0A23B /* AppDelegate.swift */,
+				973984A82AA3CED700D0A23B /* SceneDelegate.swift */,
+				973984AA2AA3CED700D0A23B /* ViewController.swift */,
+				973984BA2AA3DDFE00D0A23B /* ProfieViewController.swift */,
+				974F8C952AA4B717007F552E /* PhotoPickerAlertController.swift */,
+				974F8C942AA4B717007F552E /* PhotoPickerDelegate.swift */,
+				973984AF2AA3CED800D0A23B /* Assets.xcassets */,
+				973984B12AA3CED800D0A23B /* LaunchScreen.storyboard */,
+				973984B42AA3CED800D0A23B /* Info.plist */,
+				973984BC2AA3E05600D0A23B /* ProfileModel.swift */,
+			);
+			path = Tinkoff_Messenger_iOS_App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		973984A22AA3CED700D0A23B /* Tinkoff_Messenger_iOS_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973984B72AA3CED800D0A23B /* Build configuration list for PBXNativeTarget "Tinkoff_Messenger_iOS_App" */;
+			buildPhases = (
+				9739849F2AA3CED700D0A23B /* Sources */,
+				973984A02AA3CED700D0A23B /* Frameworks */,
+				973984A12AA3CED700D0A23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tinkoff_Messenger_iOS_App;
+			productName = Tinkoff_Messenger_iOS_App;
+			productReference = 973984A32AA3CED700D0A23B /* Tinkoff_Messenger_iOS_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9739849B2AA3CED700D0A23B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					973984A22AA3CED700D0A23B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9739849E2AA3CED700D0A23B /* Build configuration list for PBXProject "Tinkoff_Messenger_iOS_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9739849A2AA3CED700D0A23B;
+			productRefGroup = 973984A42AA3CED700D0A23B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				973984A22AA3CED700D0A23B /* Tinkoff_Messenger_iOS_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		973984A12AA3CED700D0A23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973984B32AA3CED800D0A23B /* LaunchScreen.storyboard in Resources */,
+				973984B02AA3CED800D0A23B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9739849F2AA3CED700D0A23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973984BD2AA3E05600D0A23B /* ProfileModel.swift in Sources */,
+				973984AB2AA3CED700D0A23B /* ViewController.swift in Sources */,
+				973984BB2AA3DDFE00D0A23B /* ProfieViewController.swift in Sources */,
+				973984A72AA3CED700D0A23B /* AppDelegate.swift in Sources */,
+				973984A92AA3CED700D0A23B /* SceneDelegate.swift in Sources */,
+				974F8C962AA4B717007F552E /* PhotoPickerDelegate.swift in Sources */,
+				974F8C972AA4B717007F552E /* PhotoPickerAlertController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		973984B12AA3CED800D0A23B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973984B22AA3CED800D0A23B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		973984B52AA3CED800D0A23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		973984B62AA3CED800D0A23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		973984B82AA3CED800D0A23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3HW5C4GT9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tinkoff_Messenger_iOS_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wwww.Tinkoff-Messenger-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		973984B92AA3CED800D0A23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V3HW5C4GT9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tinkoff_Messenger_iOS_App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wwww.Tinkoff-Messenger-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9739849E2AA3CED700D0A23B /* Build configuration list for PBXProject "Tinkoff_Messenger_iOS_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973984B52AA3CED800D0A23B /* Debug */,
+				973984B62AA3CED800D0A23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		973984B72AA3CED800D0A23B /* Build configuration list for PBXNativeTarget "Tinkoff_Messenger_iOS_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973984B82AA3CED800D0A23B /* Debug */,
+				973984B92AA3CED800D0A23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9739849B2AA3CED700D0A23B /* Project object */;
+}
