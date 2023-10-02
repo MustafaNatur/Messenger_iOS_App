@@ -62,18 +62,50 @@
 		973984A52AA3CED700D0A23B /* Tinkoff_Messenger_iOS_App */ = {
 			isa = PBXGroup;
 			children = (
-				973984A62AA3CED700D0A23B /* AppDelegate.swift */,
-				973984A82AA3CED700D0A23B /* SceneDelegate.swift */,
-				973984AA2AA3CED700D0A23B /* ViewController.swift */,
-				973984BA2AA3DDFE00D0A23B /* ProfieViewController.swift */,
-				974F8C952AA4B717007F552E /* PhotoPickerAlertController.swift */,
-				974F8C942AA4B717007F552E /* PhotoPickerDelegate.swift */,
+				97A892D52AA4BB7E007C0949 /* Support */,
+				97A892D22AA4BB22007C0949 /* ViewControllers */,
+				97A892D32AA4BB3F007C0949 /* Protocols */,
+				97A892D42AA4BB52007C0949 /* Models */,
 				973984AF2AA3CED800D0A23B /* Assets.xcassets */,
 				973984B12AA3CED800D0A23B /* LaunchScreen.storyboard */,
 				973984B42AA3CED800D0A23B /* Info.plist */,
-				973984BC2AA3E05600D0A23B /* ProfileModel.swift */,
 			);
 			path = Tinkoff_Messenger_iOS_App;
+			sourceTree = "<group>";
+		};
+		97A892D22AA4BB22007C0949 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				973984AA2AA3CED700D0A23B /* ViewController.swift */,
+				973984BA2AA3DDFE00D0A23B /* ProfieViewController.swift */,
+				974F8C952AA4B717007F552E /* PhotoPickerAlertController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		97A892D32AA4BB3F007C0949 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				974F8C942AA4B717007F552E /* PhotoPickerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		97A892D42AA4BB52007C0949 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				973984BC2AA3E05600D0A23B /* ProfileModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		97A892D52AA4BB7E007C0949 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				973984A62AA3CED700D0A23B /* AppDelegate.swift */,
+				973984A82AA3CED700D0A23B /* SceneDelegate.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

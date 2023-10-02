@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
 
     @objc private func showProfileViewController() {
-        let vc = ProfileViewController(model: Profile(name: "Stephen", secondName: "Johnson" , detailsBio: "UI/UX designer, web designer", detailsContry: "Moscow, Russia", image: nil))
+        let vc = ProfileViewController(model: Profile(name: "Mustafa", secondName: "Natur" , detailsBio: "UI/UX designer, web designer", detailsContry: "Moscow, Russia", image: nil))
         let nv = UINavigationController(rootViewController: vc)
         self.present(nv, animated: true)
     }
