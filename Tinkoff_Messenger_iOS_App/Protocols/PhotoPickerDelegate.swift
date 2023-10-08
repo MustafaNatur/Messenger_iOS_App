@@ -11,3 +11,9 @@ import UIKit
 protocol PhotoPickerDelegate {
     func chooseImagePicker(source: UIImagePickerController.SourceType)
 }
+
+protocol ViewControllerViewModel {
+    var title: String { get }
+    var leftBarButtonItem: UIBarButtonItem? { get }
+    var rightBarButtonItem: UIBarButtonItem? { get }
+}

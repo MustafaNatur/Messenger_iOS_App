@@ -14,6 +14,10 @@ struct Profile {
     let detailsBio: String
     let detailsContry: String
     let image: UIImage?
+
+    static func getProfile() -> Self {
+        Profile(name: "Mustafa", secondName: "Natur" , detailsBio: "UI/UX designer, web designer", detailsContry: "Moscow, Russia", image: nil)
+    }
 }
 
 struct ProfileHelper {
@@ -29,9 +33,17 @@ struct ProfileHelper {
         nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         nameLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
 
-        nameLabel.font = UIFont(name: "Arial Rounded MT Bold", size: 60)
+        nameLabel.font = UIFont(name: "Arial Rounded MT Bold", size: size.width)
         nameLabel.textColor = .white
         nameLabel.center = view.convert(view.center, to: view.superview)
         return view
     }
+}
+
+struct ConversationListViewModel: ViewControllerViewModel {
+    var title: String
+
+    var leftBarButtonItem: UIBarButtonItem?
+
+    var rightBarButtonItem: UIBarButtonItem?
 }

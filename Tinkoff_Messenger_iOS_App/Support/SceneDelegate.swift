@@ -20,7 +20,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
         window?.makeKeyAndVisible()
-        window?.rootViewController = ViewController()
+
+        let vc = ConversationListViewController()
+        let testVc = ViewController()
+        let viewModel = ConversationListViewModel(title: "Chat", leftBarButtonItem: UIBarButtonItem(image: UIImage(systemName: "gear"), style: .plain, target: self, action: nil), rightBarButtonItem: UIBarButtonItem(image: UIImage(systemName: "person.fill"), style: .plain, target: self, action: nil))
+        vc.configure(with: viewModel)
+        window?.rootViewController = UINavigationController(rootViewController: vc)
 
     }
 

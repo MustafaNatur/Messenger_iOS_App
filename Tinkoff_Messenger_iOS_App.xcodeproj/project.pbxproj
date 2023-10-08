@@ -16,6 +16,11 @@
 		973984BD2AA3E05600D0A23B /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973984BC2AA3E05600D0A23B /* ProfileModel.swift */; };
 		974F8C962AA4B717007F552E /* PhotoPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F8C942AA4B717007F552E /* PhotoPickerDelegate.swift */; };
 		974F8C972AA4B717007F552E /* PhotoPickerAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F8C952AA4B717007F552E /* PhotoPickerAlertController.swift */; };
+		97AF3F622ACB6F2700635445 /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AF3F612ACB6F2700635445 /* ConversationListViewController.swift */; };
+		97AF3F642ACB7C8E00635445 /* ConversationCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AF3F632ACB7C8E00635445 /* ConversationCellModel.swift */; };
+		97AF3F662ACB7D0400635445 /* ConfigurableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AF3F652ACB7D0400635445 /* ConfigurableViewProtocol.swift */; };
+		97AF3F692ACC018400635445 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AF3F682ACC018400635445 /* ConversationTableViewCell.swift */; };
+		97D808482AD331FA009D2BB3 /* ContactProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D808472AD331FA009D2BB3 /* ContactProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		973984BC2AA3E05600D0A23B /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		974F8C942AA4B717007F552E /* PhotoPickerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerDelegate.swift; sourceTree = "<group>"; };
 		974F8C952AA4B717007F552E /* PhotoPickerAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerAlertController.swift; sourceTree = "<group>"; };
+		97AF3F612ACB6F2700635445 /* ConversationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
+		97AF3F632ACB7C8E00635445 /* ConversationCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCellModel.swift; sourceTree = "<group>"; };
+		97AF3F652ACB7D0400635445 /* ConfigurableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableViewProtocol.swift; sourceTree = "<group>"; };
+		97AF3F682ACC018400635445 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		97D808472AD331FA009D2BB3 /* ContactProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 		973984A52AA3CED700D0A23B /* Tinkoff_Messenger_iOS_App */ = {
 			isa = PBXGroup;
 			children = (
+				97AF3F672ACC012400635445 /* Views */,
 				97A892D52AA4BB7E007C0949 /* Support */,
 				97A892D22AA4BB22007C0949 /* ViewControllers */,
 				97A892D32AA4BB3F007C0949 /* Protocols */,
@@ -79,6 +90,7 @@
 				973984AA2AA3CED700D0A23B /* ViewController.swift */,
 				973984BA2AA3DDFE00D0A23B /* ProfieViewController.swift */,
 				974F8C952AA4B717007F552E /* PhotoPickerAlertController.swift */,
+				97AF3F612ACB6F2700635445 /* ConversationListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -87,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				974F8C942AA4B717007F552E /* PhotoPickerDelegate.swift */,
+				97AF3F652ACB7D0400635445 /* ConfigurableViewProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -95,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				973984BC2AA3E05600D0A23B /* ProfileModel.swift */,
+				97AF3F632ACB7C8E00635445 /* ConversationCellModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -106,6 +120,15 @@
 				973984A82AA3CED700D0A23B /* SceneDelegate.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		97AF3F672ACC012400635445 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97AF3F682ACC018400635445 /* ConversationTableViewCell.swift */,
+				97D808472AD331FA009D2BB3 /* ContactProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,12 +202,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				973984BD2AA3E05600D0A23B /* ProfileModel.swift in Sources */,
+				97AF3F662ACB7D0400635445 /* ConfigurableViewProtocol.swift in Sources */,
 				973984AB2AA3CED700D0A23B /* ViewController.swift in Sources */,
+				97D808482AD331FA009D2BB3 /* ContactProfileView.swift in Sources */,
 				973984BB2AA3DDFE00D0A23B /* ProfieViewController.swift in Sources */,
 				973984A72AA3CED700D0A23B /* AppDelegate.swift in Sources */,
+				97AF3F692ACC018400635445 /* ConversationTableViewCell.swift in Sources */,
 				973984A92AA3CED700D0A23B /* SceneDelegate.swift in Sources */,
+				97AF3F622ACB6F2700635445 /* ConversationListViewController.swift in Sources */,
 				974F8C962AA4B717007F552E /* PhotoPickerDelegate.swift in Sources */,
 				974F8C972AA4B717007F552E /* PhotoPickerAlertController.swift in Sources */,
+				97AF3F642ACB7C8E00635445 /* ConversationCellModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

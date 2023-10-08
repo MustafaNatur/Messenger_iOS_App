@@ -22,20 +22,26 @@ class ViewController: UIViewController {
     }
 
     private func setupUI() {
-        view.addSubview(showButton)
+        let image = ContactProfileView()
+
+        view.addSubview(image)
         
-        showButton.translatesAutoresizingMaskIntoConstraints = false
+        image.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            showButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            showButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            image.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            image.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            image.widthAnchor.constraint(equalToConstant: 300),
+            image.heightAnchor.constraint(equalToConstant: 300)
         ])
+
+        image.configure(with: ContactProfileViewViewModel(isOnline: true))
 
         showButton.addTarget(self, action: #selector(showProfileViewController), for: .touchUpInside)
 
     }
 
     @objc private func showProfileViewController() {
-        let vc = ProfileViewController(model: Profile(name: "Mustafa", secondName: "Natur" , detailsBio: "UI/UX designer, web designer", detailsContry: "Moscow, Russia", image: nil))
+        let vc = ProfileViewController(model: Profile.getProfile())
         let nv = UINavigationController(rootViewController: vc)
         self.present(nv, animated: true)
     }

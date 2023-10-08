@@ -110,7 +110,6 @@ class ProfileViewController: UIViewController {
         setupAvatarView()
         setupAvatarContainer()
         setupInfoStackView()
-
     }
 
     @objc private func editProfileAvatar() {
